@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/hnet.com-image.ico" type="image/x-icon">
+    <title>Get Catering</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+</head>
+
+<body>
+
+    <div class="black_container black_container_nav">
+        <nav class="navbar navbar-expand-lg navbar-dark black_container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Get-Logo-header.png" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tel:+375292824989">Обратный звонок</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Категории
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Барбекю</a></li>
+                                <li><a class="dropdown-item" href="#">Ко фрейк</a></li>
+                                <li><a class="dropdown-item" href="#">Фан кейтеринг</a></li>
+                                <li><a class="dropdown-item" href="#">Выездной бар</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Доставка</a></li>
+                                <li><a class="dropdown-item" href="#">Банкет</a></li>
+                                <li><a class="dropdown-item" href="#">Фуршет</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Аренда мебели/a></li>
+                                <li><a class="dropdown-item" href="#">Аренда посуды</a></li>
+                                <li><a class="dropdown-item" href="#">Аренда персонала</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-light">Вход</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container_product" id="container_product">
+        <div class="container">
+            <div class="block_about_product">
+                <div class="col">
+                    <span class="badge rounded-pill bg-warning text-dark">VIP</span>
+                    <span class="badge rounded-pill bg-info text-dark">1 ШАГ</span>
+                </div>
+                <div class="col-12">
+                    <img src="img/dostavka_fursh_1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12">
+                    <h4><b class="main_name_menu">Фуршет от шеф-повара Максима Рулькиновича</b></h4>
+                </div>
+                <div class="row row_mob">
+                    <div class="col-md-auto price_menu"><b>от <span class="price_menu_span">50</span> $</b></div>
+                    <div class="col-md-auto col_info"><img src="img/count_person.svg" alt="">от <span
+                            class="ot_pers">3</span> до <span class="to_pers">10</span> персон</div>
+                    <div class="col-md-auto col_info"><img src="img/hourglass.svg" alt="">Доставка 1-8 ч.</div>
+                    <div class="col-md-auto col_info"><img src="img/meal.svg" alt="">Доставка 1000 руб.</div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Меню
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Ассорти из свежих овощей и зелени</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Помидоры, огурцы, редис, зелень, перец болгарский
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Русский разносол</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Помидоры малосольные, огурцы малосольные, капуста квашенная, черемша, чеснок
+                                        маринованный
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Маслины/Оливки "Гиганти" с косточкой</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Ассорти европейских сыров</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Бри, дор блю, чеддр, гауда, пармезан, виноград, грецкие орехи, мед, крекер, мята
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Сельдь с отварным картофелем, укропом, красным луком и чесночной
+                                                    гренкой</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Рыбное плато</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Лосось с/с, угорь копченый с кунжутом, тигровые креветки, маслины, лимон,
+                                        зелень, каперсы
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Вителло Тоннато с рукколой и пармезаном</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Запечённая телятина под соусом из тунца
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Ассорти итальянских колбас и итальянских солений</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Салями милано, чоризо, спьяната романо, маслины, вяленные томаты, микс салата
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Салат руккола с креветками, авокадо и "Пармезаном"</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Салат "Оливье" с куриной грудкой</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Салат из ростбифа с микс-салатом, запеченным болгарским перцем,
+                                                    пармезаном и итальянским соусом</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Филе Дорада на гриле</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Шашлык из лосося</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Цыплята табака на гриле</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Шашлык из свинины</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Люля-кебаб из баранины с гранатом</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Корейка барашка на гриле</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Овощи на гриле</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">Цуккини, болгарский перец, помидоры,
+                                        шампиньоны, баклажаны</div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Люля-кебаб из картофеля</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Соус гранатовый "Наршараб"/Соус "Ткемали" классический/Аджика
+                                                    домашняя</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Хлебная корзина</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Лаваш армянский, лепешка из тандыра, булочки в ассортименте
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Фруктовая ваза</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Ананас 1/4, виноград, груша, яблоко, персик/слива, клубника
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Чай "Greenfield" листовой в асс.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description"></div>
+                                    <div class="col-lg-6 col-sm-12 name">
+                                        <ul>
+                                            <li>
+                                                <span>Кофе эспрессо/американо "Lavazza"</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 description">
+                                        Сахар, сливки, молоко
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pt20">
+                    <b>
+                        <h4>Вы готовы сделать заказ? <br> Тогда созвонитесь, уточните и оформите его с оператором</h4>
+                    </b>
+                </div>
+
+                <div class="row pt40">
+                    <div class="col-lg-8 col-sm-12">
+                        Выберите кол-во персон <br>
+                        <button type="button" class="btn btn-warning" id="pl">+</button>
+                        <span class="count_person"><b>0</b></span>
+                        <button type="button" class="btn btn-warning" id="min">-</button>
+                        <span class="price">Цена: <span class="price_span">0</span> $</span>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col_tel_zakaz">
+                        <button type="button" class="btn btn-dark choose_decor">Выбор декора</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="container hall display_none" id="hall">
+        <div class="col-lg-1 col-sm-3 block_step mt100">
+            <b>ШАГ 2</b>
+        </div>
+        <h3 class="mt20">Выбор декора</h3>
+        <div class="col-lg-10 col-sm-12 block_decor mt20" id>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-4 col-sm-12 dec-img-mob">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_decor_js">
+                    <h4><b>Вариация №1 или иное название комбинации</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_decor">20</span> $</b></p> 
+                        <p class="fst-italic">Кол-во выбранных персон:<span class="count_person">0</span></p>
+                        <button type="button" class="btn btn-info">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-10 col-sm-12 block_decor mt20" id>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-4 col-sm-12 dec-img-mob">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_decor_js">
+                    <h4><b>Вариация №2 или иное название комбинации</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_decor">10</span> $</b></p> 
+                        <p class="fst-italic">Кол-во выбранных персон:<span class="count_person">0</span></p>
+                        <button type="button" class="btn btn-info">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-10 col-sm-12 block_decor mt20" id>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-4 col-sm-12 dec-img-mob">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_decor_js">
+                    <h4><b>Вариация №3 или иное название комбинации</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_decor">5</span> $</b></p> 
+                        <p class="fst-italic">Кол-во выбранных персон:<span class="count_person">0</span></p>
+                        <button type="button" class="btn btn-info">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container premises display_none" id="premises">
+        <div class="col-lg-1 col-sm-3 block_step mt100">
+            <b>ШАГ 3</b>
+        </div>
+        <h3 class="mt20">Выбор помещения</h3>
+        <div class="test_znach"></div>
+        <div class="col-lg-10 col-sm-12 block_premises mt20" id>
+            <div class="row">
+                <div class="col-8">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-4">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_premises_js">
+                    <h4><b>Зал №1</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_premises">40</span> $</b></p>
+                        <button type="button" class="btn btn-success">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-10 col-sm-12 block_premises mt20" id>
+            <div class="row">
+                <div class="col-8">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-4">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_premises_js">
+                    <h4><b>Зал №2</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_premises">30</span> $</b></p>
+                        <button type="button" class="btn btn-success">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-10 col-sm-12 block_premises mt20" id>
+            <div class="row">
+                <div class="col-8">
+                    <img src="img/decor_!.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-4">
+                    <img src="img/decor_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 pt20 title_premises_js">
+                    <h4><b>Зал №3</b></h4>
+                </div>
+                <div class="col-12 pt20">
+                    Официант обслуживает посетителей ресторана, кафе, кофейни и других заведений общественного питания.
+                    В каждом заведении существуют свои требования к работе персонала. В соответствии с ними официанты
+                    приветствуют клиентов, оформляют и сервируют столы согшласно заданномупо образцу и общепринятому
+                    этикету.
+                    В соответствии с ними официанты приветствуют клиентов, оформляют и сервируют столы согшласно
+                    заданномупо образцу и общепринятому этикету.
+                </div>
+                <div class="col-12" style="text-align: right;">
+                    <div class="price_menu">
+                        <p class="fst-italic">Цена: <b>от <span class="price_premises">20</span> $</b></p>
+                        <button type="button" class="btn btn-success">Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container itog_page display_none" id="itog_page">
+        <div class="col-lg-1 col-sm-3 block_step mt100">
+            <b>ШАГ 4</b>
+        </div>
+        <h3 class="mt20">Итоговая проверка</h3>
+        <div class="col-12 choose_menu pt40">
+            <h4><b>Меню <span class="choose_menu_price">100</span>$</b> </h4>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Выбранное меню
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Ассорти из свежих овощей и зелени</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Помидоры, огурцы, редис, зелень, перец болгарский
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Русский разносол</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Помидоры малосольные, огурцы малосольные, капуста квашенная, черемша, чеснок
+                                маринованный
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Маслины/Оливки "Гиганти" с косточкой</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Ассорти европейских сыров</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Бри, дор блю, чеддр, гауда, пармезан, виноград, грецкие орехи, мед, крекер, мята
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Сельдь с отварным картофелем, укропом, красным луком и чесночной
+                                            гренкой</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Рыбное плато</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Лосось с/с, угорь копченый с кунжутом, тигровые креветки, маслины, лимон,
+                                зелень, каперсы
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Вителло Тоннато с рукколой и пармезаном</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Запечённая телятина под соусом из тунца
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Ассорти итальянских колбас и итальянских солений</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Салями милано, чоризо, спьяната романо, маслины, вяленные томаты, микс салата
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Салат руккола с креветками, авокадо и "Пармезаном"</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Салат "Оливье" с куриной грудкой</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Салат из ростбифа с микс-салатом, запеченным болгарским перцем,
+                                            пармезаном и итальянским соусом</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Филе Дорада на гриле</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Шашлык из лосося</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Цыплята табака на гриле</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Шашлык из свинины</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Люля-кебаб из баранины с гранатом</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Корейка барашка на гриле</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Овощи на гриле</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">Цуккини, болгарский перец, помидоры,
+                                шампиньоны, баклажаны</div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Люля-кебаб из картофеля</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Соус гранатовый "Наршараб"/Соус "Ткемали" классический/Аджика
+                                            домашняя</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Хлебная корзина</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Лаваш армянский, лепешка из тандыра, булочки в ассортименте
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Фруктовая ваза</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Ананас 1/4, виноград, груша, яблоко, персик/слива, клубника
+                            </div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Чай "Greenfield" листовой в асс.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description"></div>
+                            <div class="col-lg-6 col-sm-12 name">
+                                <ul>
+                                    <li>
+                                        <span>Кофе эспрессо/американо "Lavazza"</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 description">
+                                Сахар, сливки, молоко
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 pt40">
+                <h4><b>Декор <span class="choose_decor_price">100</span>$</b> </h4>
+                <h4><b class="name_choose_decor">Название выбранного декора</b></h4>
+            </div>
+            <div class="col-lg-6 col-sm-12 pt40">
+                <h4><b>Зал <span class="choose_premises_price">100</span>$</b> </h4>
+                <h4><b class="name_choose_premises">Название выбранного зала</b></h4>
+            </div>
+        </div>
+       
+        <div class="row pt80">
+            <div class="col-lg-6">
+             <h4><b>Кол-во персон: <span class="choose_count_person">100</span></b></h4>
+            </div>
+            <div class="col-lg-6"><h4><b>Итоговая цена: <span class="choose_price_itog">100</span>$</b></h4></div>
+        </div>
+
+    <div class="col-12 pt80" style="text-align: center;">
+        <button type="button" class="btn btn-warning ok_itog">Отправить заявку</button> 
+    </div>
+    </div>
+
+    <div class="content_container">
+            <div class="container">
+                <div class="row pt20 not_time">
+                    <div class="col-lg-6 col-sm-12">
+                        <h5><b>Ваш личный бесплатный
+                                консьерж сервис</b></h5>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <h1><b>+7 (495) 005-69-79</b></h1>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 fz13">
+                        Хотите заказать кейтеринг, но нет времени говорить по телефону? Заполните небольшую форму и мы
+                        сделаем
+                        подборку меню специально для вашего события!
+                    </div>
+                    <div class="col-lg-6 col-sm-12 fz13">
+                        <b>Если Вы хотите, чтобы мы все сделали
+                            самостоятельно, а Вам осталось только
+                            выбрать подходящий вариант.</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black_container mt80">
+                <div class="container mob_footer">
+                    <div class="row pt20 footer ">
+                        <div class="col-lg col-sm-12">
+                            <img src="img/Get-Logo-header.png" alt="">
+                        </div>
+                        <div class="col-lg col-sm-12">
+                            <p><b>Заказать кейтеринг</b> </p>
+                            <a href="">Все меню</a> <br>
+                            <a href="">Перезвоните мне</a>
+                        </div>
+                        <div class="col-lg col-sm-12">
+                            <p><b>О нас</b></p>
+                            <a href="">О компании</a> <br>
+                            <a href="">Правовая информация</a> <br>
+                            <a href="">FAQ</a> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+</script>
+
+</html>
